@@ -1,0 +1,119 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set body to fill the viewport */
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0; /* Light background color */
+    font-family: 'Arial', sans-serif;
+    flex-direction: column;
+}
+
+/* Title styling - Separate the title and move it above the box */
+.title {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.title h2 {
+    color: #333;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.underline {
+    width: 5rem;
+    height: 4px;
+    background:skyblue ;
+    margin: 0.5rem auto;
+}
+
+/* Container for review section with larger width */
+.container {
+    
+    background: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 500px; /* Adjust to make it larger if needed */
+    text-align: center;
+    margin: 1rem auto;
+}
+
+/* Review section styling */
+.review .img-container {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.review img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.review h4 {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    color: #555;
+}
+#job {
+    color:skyblue;
+    margin: 1rem 0;
+}
+
+.review p  {
+
+    margin: 1rem 0;
+}
+
+/* Button container for navigation */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+button:hover {
+    color: #777;
+}
+
+/* Surprise button styling */
+.random-btn {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.random-btn:hover {
+    background-color: #555;
+}
